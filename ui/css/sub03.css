@@ -1,0 +1,68 @@
+#header{
+    width: 100vw;
+    height: 67px;
+    background: #ffffff;
+    /*background: url("../img/section01/gnb_header.png") no-repeat center;*/
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9099999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo{
+    margin-left: 69px;
+}
+
+#header .gnb {
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .right {
+    display: flex;
+    margin-right: 0;
+}
+#header .right > li:nth-child(1){
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+#header .right > li:nth-child(2){
+    margin-right: 55px;
+    margin-top: 10px;
+}
+
+
+#sub03{
+    width: 100vw;
+    height: 2252px;
+
+}
+
+#footer{
+    height: 350px;
+    background: url("../img/footer/bg.png") no-repeat center;
+}
+
+#footer .menu{
+    width: 444px;
+    position: absolute;
+    right: 182px;
+    top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .sns{
+    width: 74px;
+    position: absolute;
+    right: 182px;
+    bottom: 131px;
+    display: flex;
+    justify-content: space-between;
+}
