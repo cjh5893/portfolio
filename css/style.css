@@ -1,0 +1,253 @@
+
+
+
+.startPoint{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*right: 230px;*/
+    /*top: 254px;*/
+    z-index: 899998989;
+    /*background: black;*/
+    /*border: none;*/
+    /*outline: none;*/
+    /*cursor: pointer;*/
+    background: url("../img/section01/mouse_circle.png") no-repeat center;
+
+}
+
+
+.outline{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    /*right: 215px;*/
+    /*top: 239px;*/
+    z-index: 899998989;
+    pointer-events: none;
+
+}
+
+.outline.black .startPoint{
+    background: url("../img/section01/mouse_circle-2.png") no-repeat center;
+}
+
+.outline.black .line{
+    background: url("../img/section01/mouse_outline-2.png") no-repeat center;
+}
+
+.outline .line{
+    width: 74px;
+    height: 73px;
+    background: url("../img/section01/mouse_outline.png") no-repeat center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -37px 0 0 -37px;
+    animation: outline 2s infinite linear;
+}
+
+@keyframes outline {
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+
+#header{
+    width: 100vw;
+    height: 93px;
+    /*background: #000;*/
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9099999;
+    /*opacity: 0.3;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#header.black .gnb > li{
+    filter: invert(100%);
+}
+#header.black .logo {
+    filter: invert(100%);
+}
+#header.black .about > .about {
+    filter: invert(100%);
+}
+
+#header .logo{
+    margin-left: 53px;
+}
+
+
+
+#header .gnb {
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .gnb > li{
+    transition:all .5s;
+}
+#header .about{
+    display: flex;
+    margin-right: 28px;
+}
+#intro{
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*background: red;*/
+    transition:all 1s;
+    width: 100vw;
+    height: 100vh;
+    /*background: gray;*/
+    /*background: url("../img/section01/bg_final.png") no-repeat center;*/
+    background: url("../img/section01/bg.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#intro .main_title{
+    /*width: 652px;*/
+    /*height: 142px;*/
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition:all 4s 1s;
+    z-index: 1;
+}
+#intro.on .main_title{
+    opacity: 1;
+
+}
+#intro .deco_left{
+    position: absolute;
+    left: 139px;
+    top: 185px;
+}
+#intro .deco_right{
+    position: absolute;
+    right: 154px;
+    bottom: 110px;
+}
+
+
+#section02{
+    /*background: url("../img/section02/bg_final.png") no-repeat center;*/
+    background: #f7f7f7;
+    height: 280vh;
+}
+
+
+#section02 .img > div{
+    transition:all .5s;
+}
+
+#section02 .img > div.on{
+    opacity: 0;
+}
+
+
+#section02 .img .img_1{
+    position: absolute;
+    left: 277px;
+    top: 155px;
+    z-index: 1;
+}
+
+
+#section02 .img .img_2{
+    position: absolute;
+    right: 229px;
+    top: 642px;
+    z-index: 1;
+}
+#section02 .img .img_3{
+    position: absolute;
+    left: 324px;
+    top: 1084px;
+    z-index: 1;
+}
+#section02 .img .img_4{
+    position: absolute;
+    right: 288px;
+    bottom: 444px;
+    z-index: 1;
+}
+
+#section02 .portfolio_text{
+    position: absolute;
+    right: 299px;
+    top: 335px;
+}
+#section02 .scroll_down{
+    position: absolute;
+    left: 89px;
+    top: 173px;
+
+}
+
+
+#section02 .bar{
+    width: 8px;
+    height: 2700px;
+    background: #efedef;
+    position: absolute;
+    left: 191px;
+    top: 179px;
+}
+
+#section02 .gray{
+    width: 8px;
+    height: 275px;
+    background: #c4c3c5;
+    position: absolute;
+
+}
+
+#section03{
+    background: gray;
+}
+
+#section04{
+    background: hotpink;
+}
+
+
+#section05{
+    background: aqua;
+}
+
+
+
+
+
+
+
+
+
+
