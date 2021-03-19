@@ -61,12 +61,12 @@ window.addEventListener('DOMContentLoaded', function () {
 
         console.log("Now Loc Y:  "+scrollTop);
 
-        if(scrollTop === 0){
+        // if(scrollTop === 0){
 
-            $('#intro').css('transform',`translateY(${0}px)`);
-            $('#container').css('transform',`translateY(${innerHeight}px)`);
+        //     $('#intro').css('transform',`translateY(${0}px)`);
+        //     $('#container').css('transform',`translateY(${innerHeight}px)`);
 
-        }
+        // }
 
 
         if(scrollTop >= 380){
